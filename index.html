@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+    <link rel="stylesheet"  href="style.css">
+</head>
+<body>
+
+    <h2>Student Registration Form</h2>
+
+    <form>
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="Entre your First Name" required><br><br>
+
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname" placeholder="Enter your last Name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Entre your email" required><br><br>
+
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" placeholder="Entre your phone number" required><br><br>
+
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label><br><br>
+
+        <label for="course">Select your course:</label><br>
+        <select id="course" name="course">
+            <option value="btech">B.Tech</option>
+            <option value="bca">BCA</option>
+            <option value="bsc">B.Sc</option>
+            <option value="mca">MCA</option>
+        </select><br><br>
+
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address" rows="4" cols="30" placeholder="Entre your Address"></textarea><br><br>
+
+        <input type="submit" value="Register">
+    </form>
+
+</body>
+</html>
